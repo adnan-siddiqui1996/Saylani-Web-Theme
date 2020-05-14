@@ -1,77 +1,53 @@
-body{
-    overflow-x: hidden;
-}
-.container{
-    margin-left: 0px !important;
+#topHead{
     background-color: #316DC3;
-    height: 50px;
-    min-width: 100%;
 }
-.container .social-icons{
-    min-width: 20%;
-    margin-left: 5%;
-    float: left;
-}
-.container .social-icons img{
+.container-fluid .row1 img{
+    width: 18px;
+    height: 16px;
+    margin-right: 20px;
     margin-top: 15px;
-    margin-right: 25px;
-    width: 13px;
-    height: 13px;
 }
-.container .social-icons .whatsapp{
-    background-color: #65BC54;
-    width: 15px;
-    height: 15px;
-}
-.container .para{
-    min-width: 50%;
-    float: left;    
-    padding-top: 11px;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
+.container-fluid .row1 #imgs{    
     text-align: center;
-
+    padding-left: 20px;
 }
-.container .topButton{
-    float: left;
-    min-width: 20%;
-    height: 50px;
+.container-fluid .row1 #imgs .whatsapp{
+    background-color: #65BC54;
 }
-.container .topButton button{
-    border: 1px solid #006618;
-    color: #006618;
+.container-fluid .row1 .col2 p{
     margin-top: 10px;
-    font-size: 8pt;
-    width: 30%;
-    height: 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 0px;
+}
+.container-fluid .row1 .col3{
+    text-align: center;
+}
+.container-fluid .row1 .col3 button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #427900;
+    border: 1px solid #427900;
+    font-size: 9pt;
+    height: 25px;   
+    background-color: #F5F5F5;
+}
+#btn1{
+    width: 70px;
+}
+.btn2{
+    width: 100px;
+}
+.navbar-brand img{
+    width: 200px;
+    height: 50px;
+    margin-left: 30px;
 }
 .nav-item:hover > .dropdown-menu{
     display: block;
 }
-.navBarDiv{
-    background-color: #316DC3;
-    height: 55px;
-    min-width: 100%;
-}
- .navbar{
-    background-color: #F7F8FA;
-    height: 70px;
-    min-width: 100%;
-}
-.logo{
-    width: 15%;
-    height: 55px;
-    margin-left: 6.5%;
-    background-color: #F7F8FA;
-}
-.logo img{
-    width: 100%;
-    height: 55px;
-    margin-left: 7.6%;
-}
-.collapse{
-    margin-left: 280px;
+.navbar-nav{
+    margin-left: 300px;
 }
 #home{
     min-width: 12% !important;
@@ -153,7 +129,6 @@ body{
     font-size: 9pt !important;
 }
 #carouselExampleControls{
-    margin-top: 0px;
     width: 100%;
     height: 500px;
 }
@@ -161,46 +136,22 @@ body{
     width: 100%;
     height: 500px;
 }
+.marq{
+    color: white;
+    background-color: #316DC3;
+}
 .marq .green{
     color: #0DD735;
 }
 .marq .blue{
     color: #1632E4;
 }
-.marq{
-    margin-top: 10px;
-    margin-left: 6.5%;
-    width: 87%;
-    height: 30px;
-    color: white;
-    background-color: #316DC3;
-}
-.backColor{
-    background-color: #F7F8FA;
-    width: 100%;
-    height: 2500px;
-    margin-top: 0px;
-}
 .headIntro{
     text-align: center;
-    padding-top: 60px;
-    width: 100%;
-    height: 160px;
+    height: 130px;
+    padding-top: 50px;
 }
-.headDoing{
-    text-align: center;
-    padding-top: 60px;
-    width: 100%;
-    height: 160px;
-}
-.headGallery{
-    text-align: center;
-    padding-top: 60px;
-    width: 100%;
-    height: 160px;
-    background-color: white;
-}
-.headIntro h2, .headDoing h2, .headGallery h2{
+.headIntro h2{
     display: inline;
     font-family: Times New Roman, serif;
     font-size: 28pt;
@@ -212,199 +163,128 @@ body{
 .color2{
     color: #427900;
 }
-.headIntro p, .headIntro img, .headDoing p,  .headDoing img, .headGallery p,  .headGallery img{
+.headIntro p, .headIntro img{
     display: inline;
-    margin-top: 5px;
-}
-.headIntro p, .headDoing p{
-    color: #427900;
-    font-weight: 900;
-}
-.headIntro img, .headDoing img{
-    height: 40px;
-    width: 38px;
 }
 .paraIntro{
-    width: 70%;
-    margin-left: 15%;
-    height: 500px;
     color: #878788;
     text-align: justify;
 }
 .paraIntro p{
     margin-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
-.numbers{
+#monthly{
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
     background-color: #2755E9;
-    width: 100%;
     height: 300px;
-    margin-top: 20px;
+    color: white;
 }
-.numbers h1{
+#monthly h1{
     font-size: 40pt;
 }
-.numbers p{
-    display: inline-block;
-    font-weight: 600;
-}
-.numbers img{
+#monthly img{
     width: 15%;
     height: 40px;
 }
-.numbers .month{
+#monthly .row .colM{
+    text-align: center;
+}
+#monthly p{
+    display: inline-block;
+    font-weight: 600;
+}
+#monthly .month{
     color: #00FF00;
     font-size: 16pt;
 }
-.monthlydastrakhan, .monthlyadoption, .monthlymedical, .monthlyeducation{
-    width: 20%;
-    height: 300px;
-    float: left;
+.row1a .headIntro img{
+    height: 30px;
+    width: 30px;
+}
+.row2a .col2, .row3a .col2{
     text-align: center;
-    padding-top: 80px;
-    color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 14pt;
-}
-.monthlydastrakhan{
-    margin-left: 10%;
-}
-.middle{
-    width: 100%;
-    height: 500px;
-}
-.onlineSdqh, .dastarkhwanService{
+    height: 200px;
+    padding-top: 40px;
     background-color: white;
-    width: 26%;
-    text-align: center;
-    height: 190px;
-    margin-left: 8%;
-    margin-top: 30px;
-    box-shadow: 0px 0px 10px 0px #888888;
-    float: left;
+    border: 5px solid rgb(239, 239, 239);
 }
-.roService, .educationService, .medicalService, .welfareService{
-    background-color: white;
-    width: 26%;
-    text-align: center;
-    height: 190px;
-    margin-left: 3%;
-    margin-top: 30px;
-    box-shadow: 0px 0px 10px 0px #888888;
-    float: left;
+.row2a, .row3a{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
-.onlineSdqh img, .welfareService img, .medicalService img, .dastarkhwanService img, .roService img, .educationService img{
-    margin-top: 30px;
-    margin-bottom: 10px;
-    width: 20%;
-    height: 70px;
-    cursor: pointer;
-}
-.onlineSdqh p, .welfareService p, .medicalService p, .dastarkhwanService p, .roService p, .educationService p{
+.row2a p, .row3a p{
     font-size: 18pt;
     color: #316DC3;
     font-weight: bold;
     font-family: Times New Roman, serif;
 }
-
-.missionProject{
-    width: 100%;
-    height: 350px;
+.row2a img, .row3a img{
+    margin-bottom: 10px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+.mission{
     background-color: white;
 }
-.missionLeft{
-    padding-left: 3%;
-    width: 63%;
-    height: 350px;
-    float: left;
-}
-.missionProject .missionLeft h2{
-    padding-top: 5%;
-    padding-left: 8%;
+.missionLeft h2, .missionRight h2{
+    padding-top: 50px;
+    padding-left: 50px;
     font-size: 20pt;
     color: #316DC3;
     font-weight: bold;
     font-family: Times New Roman, serif;
 }
-.missionProject .missionLeft .transform1{
+.missionLeft .transform1{
     color: #427900;
     font-weight: 900;
-    width: 5%;
-    margin-left: 12%;
+    margin-right: 750px;  
     transform: rotate(180deg);
 }
-.hepatitis{
-    background-color: #F7F8FA;
-    width: 40%;
-    margin-left: 8%;
-    height: 70px;
-    float: left;
+.missionRight .transform1{
+    color: #427900;
+    font-weight: 900;
+    margin-right: 300px;  
+    transform: rotate(180deg);
 }
-.housing{
-    background-color: #F7F8FA;
-    width: 40%;
-    margin-left: 3%;
-    height: 70px;
-    float: left;
-}
-.literacy{
-    background-color: #F7F8FA;
-    width: 40%;
-    margin-top: 20px;
-    margin-left: 8%;
-    height: 70px;
-    float: left;
-}
-.thar{
-    background-color: #F7F8FA;
-    width: 40%;
-    margin-top: 20px;
-    margin-left: 3%;
-    height: 70px;
-    float: left;
-}
-.hepatitis img, .housing img, .literacy img, .thar img{
-    display: inline-block;
+.col3 .row1ba img, .col3 .row1bb img{
     margin-top: -10px;
-    margin-left: 3%;
-}
-.hepatitis p, .housing p, .literacy p, .thar p{
+    margin-left: 20px;
     display: inline-block;
-    margin-top: 20px;
-    margin-left: 8%;
+}
+.col3 .row1ba p, .col3 .row1bb p{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 20px;
     font-size: 14pt;
-    color: #316DC3;
-    font-weight: bold;
-    font-family: Times New Roman, serif
-}
-.missionRight{
-    width: 35%;
-    height: 350px;
-    float: left;
-}
-.missionProject .missionRight h2{
-    padding-top: 8%;
-    padding-left: 8%;
-    font-size: 24pt;
     color: #316DC3;
     font-weight: bold;
     font-family: Times New Roman, serif;
 }
-.missionProject .missionRight .transform2{
-    color: #427900;
-    font-weight: 900;
-    width: 5%;
-    margin-left: 19%;
-    transform: rotate(180deg);
+.row1bb{
+    margin-top: 10px;
+}
+.hepatitis, .literacy{
+    background-color: #F7F8FA;
+    margin-left: 50px;
+    height: 70px;
+}
+.housing, .thar{
+    background-color: #F7F8FA;
+    margin-left: 0px;
+    height: 70px;   
 }
 .marqEvent{
-    background-color: white;
-    width: 60%;
-    height: 220px;
-    margin-left: 8%;
-    margin-top: -20px;
+    height: 170px;
+    margin-left: 35px;
 }
 .marqEvent marquee{
-    height: 220px;
+    height: 170px;
 }
 .missionRight .marqEvent .silver{
     color: #666666;
@@ -416,48 +296,36 @@ body{
     font-size: 11pt;
     display: inline;
 }
-.picturesGallery{
-    padding-left: 7%;
-    width: 100%;
-    height: 350px;
+.gallery{
+    height: 450px;
     background-color: white;
 }
-.picturesGallery img{
-    width: 18%;
+.row .colImg img{
+    margin-top: 20px;
     height: 150px;
+    margin-left: 60px;
 }
 .useLink{
-    width: 100%;
-    height: 360px;
     background-color: #25272E;
+    height: 360px;
 }
-.addressess{
-    width: 30%;
-    height: 300px;
-    margin-left: 7%;
+.addresses{
+    height: 360px;
+    padding-left: 70px;
     color: #BBBBBB;
-    font-size: 10pt;
-    float: left;
+    font-size: 12pt;
 }
-.addressess .p1{
-    padding-top: 100px;
-}
-.addressess .p2{
-    margin-top: -15px;
-}
-.addressess .inline{
+.addresses .inline{
     display: inline;
+    padding-bottom: 10px;
 }
 .useful{
-    margin-top: 70px;
-    width: 25%;
-    height: 200px;
+    padding-top: 80px;
+    height: 360px;
     color: white;
     font-family: Times New Roman, serif;
     font-size: 10pt;
-    float: left;
-}
-.useful h2{
+}.useful h2{
     font-size: 16pt;
 }
 .useful p{
@@ -477,14 +345,11 @@ body{
     transform: rotate(180deg);
 }
 .connectUs{
-    margin-top: 70px;
-    margin-left: 2%;
-    width: 25%;
+    padding-top: 80px;
     height: 200px;
     color: white;
     font-family: Times New Roman, serif;
-    font-size: 10pt;
-    float: left;
+    font-size: 10pt;    
 }
 .connectUs h2{
     font-size: 16pt;
@@ -502,17 +367,13 @@ body{
     background-color: #316DC3;
     border-radius: 45px;
     height: 36px;
-    width: 10%;
+    width: 36px;    
+    padding-left: 10px;
 } 
-#fb{
-    padding-left: 11px;
-}
 #tw, #in, #yt{
     margin-left: 10px;
-    padding-left: 9px;
 }
 .footer{
-    width: 100%;
     height: 50px;
     background-color: #316DD9;
 }
@@ -520,897 +381,141 @@ body{
     color: white;
     font-size: 9pt;
     padding-top: 15px;
-    padding-left: 7.8%;
+    padding-left: 70px;
+}
+.goTop{
+    position: fixed;
+    width: 60px;
+    height: 50px;
+    bottom: 30px;
+    right: 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 32pt;
+    background-color: rgba(50,50,50,.1);
+}
+.goTop:hover{
+    background-color: rgba(20, 20, 20, .5);
+    color: white;
+}
+html{
+    scroll-behavior: smooth;
 }
 
 
 
 
-@media only screen and (max-width: 600px){
-    .container{
-        height: 150px;
-    }   
-    .backColor{
-        height: 5750px;
-        margin-top: 0px;
+
+
+@media only screen and (max-width: 992px){
+    #home, #about, #about .nav-link, #nav-saylaniServices,  #nav-saylaniServices .nav-link, #nav-future-project, #nav-future-project .nav-link, #nav-donation, #nav-donation .nav-link, #nav-media, #nav-media .nav-link, #nav-news, #nav-news .nav-link{
+        border-radius: 0px;
+        text-align: left;
+        height: 40px;
     }
-    .container .social-icons{
-        min-width: 20%;
-        margin-left: 30%;
-        float: left;
-    }    
-    .container p{
-        padding-top: 10px;
-        font-size: 11pt;
+    .navbar-brand img{
+        width: 180px;
+        height: 50px;
+        margin-left: 0px;
     }
-    .container .topButton{
-        margin-top: -20px;
-        margin-left:90px;
-        min-width: 100%;
-    }   
-    .container .topButton button{
-        color: #006618;
-        margin-top: 15px;
-        font-size: 8pt;
-        width: 20%;
-        height: 30px;
-    }
-    .collapse{
+    .navbar-nav{
         margin-left: 0px;
     }    
-    .logo{
-        width: 40%;
-        height: 55px;
-        margin-left: -5%;
-        background-color: #F7F8FA;
-    }
-    #home, #about .nav-link, #nav-saylaniServices .nav-link, #nav-future-project .nav-link, #nav-donation .nav-link, #nav-media  .nav-link, #nav-news .nav-link{
-        border-radius: 0px;
-        height: 30px;
-        text-align: left;
-        padding-left: 20px;
-    }
-    #home, #about, #nav-saylaniServices, #nav-future-project, #nav-donation, #nav-media, #nav-news{
-        min-width: 100%;
-        height: 30px;
-        border-radius: 0px;
-        background-color: #F7F8FA;
-        border: 1px solid white;
-    }
     .dropdown-menu{
-        margin-top: 0px !important;
-        margin-left: 50% !important;
-        min-width: 50% !important;
-        color: #787a79 !important;
-        font-size: 9pt !important;
+        margin-left: 100px;
+        margin-top: -40px !important;
     }
     #carouselExampleControls{
-        margin-top: 0px;
-        min-width: 100%;
         height: 200px;
     }
     .carousel-inner img{
-        min-width: 100%;
         height: 200px;
-    }
-    body{
-        overflow-x: hidden;
-    }
-    .marq{
-        margin-top: 10px;
-        margin-left: 0%;
-        width: 100%;
-        height: 30px;
-        color: white;
-        background-color: #316DC3;
-    }    
-    .headIntro, .headDoing, .headGallery{
-        height: 150px;
-    }   
-    .headIntro img, .headDoing img , .headGallery img{
-        height: 40px;
-        width: 8%;
-    }
-    .headIntro h2, .headDoing h2, .headGallery h2{
-        font-size: 22pt;
-        font-weight: bold;
-    } 
-    .paraIntro{
-        width: 90%;
-        margin-left: 5%;
-        height: 800px;
-        color: #878788;
-        text-align: justify;
     }
     .paraIntro p{
         margin-bottom: 30px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }      
+    #monthly{
+        height: 1000px;
     }
-    .numbers{
-        height: 950px;
+    #monthly .row .colM{
+        margin-bottom: 50px;
     }
-    .numbers h1{
-        font-size: 32pt;
+    .weDoing h2{
+        font-size: 18pt;
     }
-    .numbers img{
-        width: 9%;
-        height: 45px;
+    .row2a, .row3a{
+        margin-bottom: 0px;
+        margin-left: 15px;
+        margin-right: 15px;
     }
-    .numbers p{
-        font-weight: 600;
+    .row2a .col2, .row3a .col2{
+        margin-bottom: 50px;
+        height: 250px;
+        padding-top: 60px;
     }
-    .monthlydastrakhan, .monthlyadoption, .monthlymedical, .monthlyeducation{
-        margin-left: 0%;
-        float: none;
-        width: 100%;
-        height: 200px;
-        text-align: center;
-        padding-top: 80px;
-        color: white;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 14pt;
+    .missionLeft h2{
+        font-size: 18pt;
+        padding-left: 10px;
     }
-    .middle{
-        background-color: #F7F8FA;
-        width: 100%;
+    .missionRight h2{
+        font-size: 28px;
+        padding-left: 10px;
+    }
+    .missionLeft .transform1{
+        margin-right: 230px;  
+    }
+    .missionRight .transform1{
+        margin-right: 230px;  
+    }
+    .row1bb{
+        margin-top: 0px;
+    }
+    .hepatitis, .literacy, .housing, .thar{
+        margin-left: 5px;
+        margin-bottom: 20px;
+    }
+    .marqEvent{
+        width: 300px;
+        height: 250px;
+        margin-left: 1px;
+    }
+    .marqEvent marquee{
+        height: 250px;
+    }
+    .gallery{
         height: 1400px;
     }
-    .onlineSdqh, .welfareService, .medicalService, .dastarkhwanService, .roService, .educationService{
-        float: none;
-        margin-left: 5%;
-        width: 90%;
-    }
-    .onlineSdqh img, .welfareService img, .medicalService img, .dastarkhwanService img, .roService img, .educationService img{
-        width: 16%;
-        height: 70px;
-    }
-    .onlineSdqh p, .welfareService p, .medicalService p, .dastarkhwanService p, .roService p, .educationService p{
-        font-size: 15pt;
-        margin-top: 10px;   
-    }
-    .missionProject{
-        height: 900px;
-    }
-    .missionLeft,.missionRight{
-        float: none;
-    }
-    .missionLeft{
-        width: 100%;
-        height: 500px;
-    }
-    .missionRight{
-        width: 100%;
-        height: 400px;
-    }
-    .missionProject .missionLeft h2, .missionProject .missionRight h2{
-        padding-top: 50px;
-        padding-left: 2%;
-        font-size: 18pt;
-        color: #316DC3;
-        font-weight: bold;
-        font-family: Times New Roman, serif;
-    }
-    .missionProject .missionRight h2, .missionProject .missionRight .transform2{
-        padding-left: 5%;
-    }
-    .hepatitis, .housing, .literacy, .thar{
-        float: none;
-        width: 90%;
-        margin-left: 3%;
-        margin-top: 20px;
-    }
-    .marqEvent{
-        margin-left: 5%;
-        width: 50%;
-    }      
-    .picturesGallery{
-        height: 1200px;
-    }
-    .picturesGallery img{
-        display: block;
-        width: 70%;
-        margin-left: 10%;
-        margin-bottom: 20px;
+    .row .colImg img{
         height: 200px;
-    }
+        margin-left: 10px;
+    }  
     .useLink{
-        height: 500px;
-    }
-    .addressess{
-        width: 100%;
-        height: 220px;
-        float: none;
-    }
-    .useful{
-        width: 90%;
-        margin-left: 5%;
-        height: 50px;
-        float: none;    
-    }
-    .connectUs{
-        margin-top: 15px;
-        width: 90%;
-        margin-left: 5%;
-        height: 150px;
-        float: none;
-    }
-    #fb, #tw, #in, #yt{
-        height: 36px;
-        width: 8%;
-    }
-    .footer p{
-        padding-left: 5%;
-    }
-}
-
-@media only screen and (max-width: 900px){
-    body{
-        overflow-x: hidden;
-    }
-    .container{
-        width: 100%;
-        height: 150px;
-    }   
-    .backColor{
-        height: 5750px;
-        margin-top: 0px;
-    }
-    .container .social-icons{
-        min-width: 20%;
-        margin-left: 40%;
-        float: left;
-    }    
-    .container p{
-        margin-left: 40%;
-        padding-top: 10px;
-        font-size: 11pt;
-        width: 70%;
-    }
-    .container .topButton{
-        margin-top: -20px;
-        margin-left:20%;
-        min-width: 100%;
-    }   
-    .container .topButton button{
-        color: #006618;
-        margin-top: 15px;
-        font-size: 8pt;
-        width: 20%;
-        height: 30px;
-    }
-    .collapse{
-        margin-left: 0px;
-    }    
-    .logo{
-        width: 25%;
-        height: 55px;
-        margin-left: 0%;
-        background-color: #F7F8FA;
-    }
-    #home, #about .nav-link, #nav-saylaniServices .nav-link, #nav-future-project .nav-link, #nav-donation .nav-link, #nav-media  .nav-link, #nav-news .nav-link{
-        border-radius: 0px;
-        height: 30px;
-        text-align: left;
-        padding-left: 20px;
-    }
-    #home, #about, #nav-saylaniServices, #nav-future-project, #nav-donation, #nav-media, #nav-news{
-        min-width: 100%;
-        height: 30px;
-        border-radius: 0px;
-        background-color: #F7F8FA;
-        border: 1px solid white;
-    }
-    .dropdown-menu{
-        margin-top: 0px !important;
-        margin-left: 50% !important;
-        min-width: 50% !important;
-        color: #787a79 !important;
-        font-size: 9pt !important;
-    }
-    #carouselExampleControls{
-        margin-top: 0px;
-        min-width: 100%;
-        height: 300px;
-    }
-    .carousel-inner img{
-        min-width: 100%;
-        height: 300px;
-    }
-    body{
-        overflow-x: hidden;
-    }
-    .marq{
-        margin-top: 10px;
-        margin-left: 0%;
-        width: 100%;
-        height: 30px;
-        color: white;
-        background-color: #316DC3;
-    }    
-    .headIntro, .headDoing, .headGallery{
-        height: 150px;
-    }   
-    .headIntro img, .headDoing img , .headGallery img{
-        height: 40px;
-        width: 8%;
-    }
-    .headIntro h2, .headDoing h2, .headGallery h2{
-        font-size: 22pt;
-        font-weight: bold;
-    } 
-    .paraIntro{
-        width: 90%;
-        margin-left: 5%;
-        height: 650px;
-        color: #878788;
-        text-align: justify;
-    }
-    .paraIntro p{
-        margin-bottom: 30px;
-    }
-    .numbers{
-        height: 950px;
-    }
-    .numbers h1{
-        font-size: 32pt;
-    }
-    .numbers img{
-        width: 9%;
-        height: 45px;
-    }
-    .numbers p{
-        font-weight: 600;
-    }
-    .monthlydastrakhan, .monthlyadoption, .monthlymedical, .monthlyeducation{
-        margin-left: 0%;
-        float: none;
-        width: 100%;
-        height: 200px;
-        text-align: center;
-        padding-top: 80px;
-        color: white;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 14pt;
-    }
-    .middle{
-        background-color: #F7F8FA;
-        width: 100%;
-        height: 1400px;
-    }
-    .onlineSdqh, .welfareService, .medicalService, .dastarkhwanService, .roService, .educationService{
-        float: none;
-        margin-left: 5%;
-        width: 90%;
-    }
-    .onlineSdqh img, .welfareService img, .medicalService img, .dastarkhwanService img, .roService img, .educationService img{
-        width: 16%;
-        height: 70px;
-    }
-    .onlineSdqh p, .welfareService p, .medicalService p, .dastarkhwanService p, .roService p, .educationService p{
-        font-size: 15pt;
-        margin-top: 10px;   
-    }
-    .missionProject{
-        height: 900px;
-    }
-    .missionLeft,.missionRight{
-        float: none;
-    }
-    .missionLeft{
-        width: 100%;
-        height: 500px;
-    }
-    .missionRight{
-        width: 100%;
-        height: 400px;
-    }
-    .missionProject .missionLeft h2, .missionProject .missionRight h2{
-        padding-top: 50px;
-        padding-left: 2%;
-        font-size: 18pt;
-        color: #316DC3;
-        font-weight: bold;
-        font-family: Times New Roman, serif;
-    }
-    .missionProject .missionRight h2, .missionProject .missionRight .transform2{
-        padding-left: 5%;
-    }
-    .hepatitis, .housing, .literacy, .thar{
-        float: none;
-        width: 90%;
-        margin-left: 3%;
-        margin-top: 20px;
-    }
-    .marqEvent{
-        margin-left: 5%;
-        width: 50%;
-    }      
-    .picturesGallery{
-        height: 1200px;
-    }
-    .picturesGallery img{
-        display: block;
-        width: 70%;
-        margin-left: 10%;
-        margin-bottom: 20px;
-        height: 200px;
-    }
-    .useLink{
-        height: 500px;
-    }
-    .addressess{
-        width: 100%;
-        height: 220px;
-        float: none;
-    }
-    .useful{
-        width: 90%;
-        margin-left: 5%;
-        height: 50px;
-        float: none;    
-    }
-    .connectUs{
-        margin-top: 15px;
-        width: 90%;
-        margin-left: 5%;
-        height: 150px;
-        float: none;
-    }
-    #fb, #tw, #in, #yt{
-        height: 36px;
-        width: 5%;
-    }
-    .footer p{
-        padding-left: 5%;
-    }
-}
-
-@media only screen and (max-width: 1100px){
-    body{
-        overflow-x: hidden;
-    }
-    .container{
-        width: 100%;
-        height: 150px;
-    }   
-    .backColor{
-        height: 5750px;
-        margin-top: 0px;
-    }
-    .container .social-icons{
-        min-width: 20%;
-        margin-left: 40%;
-        float: left;
-    }    
-    .container p{
-        margin-left: 60%;
-        padding-top: 10px;
-        font-size: 11pt;
-        width: 70%;
-    }
-    .container .topButton{
-        margin-top: -20px;
-        margin-left:20%;
-        min-width: 100%;
-    }   
-    .container .topButton button{
-        color: #006618;
-        margin-top: 15px;
-        font-size: 8pt;
-        width: 20%;
-        height: 30px;
-    }
-    .collapse{
-        margin-left: 0px;
-    }    
-    .logo{
-        width: 25%;
-        height: 55px;
-        margin-left: 0%;
-        background-color: #F7F8FA;
-    }
-    #home, #about .nav-link, #nav-saylaniServices .nav-link, #nav-future-project .nav-link, #nav-donation .nav-link, #nav-media  .nav-link, #nav-news .nav-link{
-        border-radius: 0px;
-        height: 30px;
-        text-align: left;
-        padding-left: 20px;
-    }
-    #home, #about, #nav-saylaniServices, #nav-future-project, #nav-donation, #nav-media, #nav-news{
-        min-width: 100%;
-        border-radius: 0px;
-        height: 30px;
-        background-color: #F7F8FA;
-        border: 1px solid white;
-    }
-    .dropdown-menu{
-        margin-top: 0px !important;
-        margin-left: 50% !important;
-        min-width: 50% !important;
-        color: #787a79 !important;
-        font-size: 9pt !important;
-    }
-    #carouselExampleControls{
-        margin-top: 0px;
-        min-width: 100%;
-        height: 300px;
-    }
-    .carousel-inner img{
-        min-width: 100%;
-        height: 300px;
-    }
-    body{
-        overflow-x: hidden;
-    }
-    .marq{
-        margin-top: 10px;
-        margin-left: 0%;
-        width: 100%;
-        height: 30px;
-        color: white;
-        background-color: #316DC3;
-    }    
-    .headIntro, .headDoing, .headGallery{
-        height: 150px;
-    }   
-    .headIntro img, .headDoing img , .headGallery img{
-        height: 40px;
-        width: 8%;
-    }
-    .headIntro h2, .headDoing h2, .headGallery h2{
-        font-size: 22pt;
-        font-weight: bold;
-    } 
-    .paraIntro{
-        width: 90%;
-        margin-left: 5%;
         height: 550px;
-        color: #878788;
-        text-align: justify;
-    }
-    .paraIntro p{
-        margin-bottom: 30px;
-    }
-    .numbers{
-        height: 950px;
-    }
-    .numbers h1{
-        font-size: 32pt;
-    }
-    .numbers img{
-        width: 9%;
-        height: 45px;
-    }
-    .numbers p{
-        font-weight: 600;
-    }
-    .monthlydastrakhan, .monthlyadoption, .monthlymedical, .monthlyeducation{
-        margin-left: 0%;
-        float: none;
-        width: 100%;
-        height: 200px;
-        text-align: center;
-        padding-top: 80px;
-        color: white;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 14pt;
-    }
-    .middle{
-        background-color: #F7F8FA;
-        width: 100%;
-        height: 2000px;
-    }
-    .onlineSdqh, .welfareService, .medicalService, .dastarkhwanService, .roService, .educationService{
-        float: none;
-        margin-left: 5%;
-        width: 90%;
-        height: 300px;
-    }
-    .onlineSdqh img, .welfareService img, .medicalService img, .dastarkhwanService img, .roService img, .educationService img{
-        width: 16%;
-        height: 70px;
-        margin-top: 90px;
-    }
-    .onlineSdqh p, .welfareService p, .medicalService p, .dastarkhwanService p, .roService p, .educationService p{
-        font-size: 15pt;
-        margin-top: 10px;   
-    }
-    .missionProject{
-        height: 900px;
-    }
-    .missionLeft,.missionRight{
-        float: none;
-    }
-    .missionLeft{
-        width: 100%;
-        height: 500px;
-    }
-    .missionRight{
-        width: 100%;
-        height: 400px;
-    }
-    .missionProject .missionLeft h2, .missionProject .missionRight h2{
-        padding-top: 50px;
-        padding-left: 2%;
-        font-size: 18pt;
-        color: #316DC3;
-        font-weight: bold;
-        font-family: Times New Roman, serif;
-    }
-    .missionProject .missionRight h2, .missionProject .missionRight .transform2{
-        padding-left: 5%;
-    }
-    .hepatitis, .housing, .literacy, .thar{
-        float: none;
-        width: 90%;
-        margin-left: 3%;
-        margin-top: 20px;
-    }
-    .marqEvent{
-        margin-left: 5%;
-        width: 40%;
-    }      
-    .picturesGallery{
-        height: 1650px;
-    }
-    .picturesGallery img{
-        display: block;
-        width: 70%;
-        margin-left: 10%;
-        margin-bottom: 20px;
-        height: 300px;
-    }
-    .useLink{
-        margin-top: 800px;
-        height: 550px;
-    }
-    .addressess{
-        width: 100%;
-        float: none;
+    }  
+    .addresses{
+        margin-left: -60px;
+        height: 360px;
     }
     .useful{
-        width: 90%;
-        margin-left: 5%;
+        padding-top: 0px;
+        margin-left: 10px;
         height: 50px;
-        float: none;    
     }
     .connectUs{
-        margin-top: 15px;
-        width: 90%;
-        margin-left: 5%;
-        height: 70px;
-        float: none;
-    }
-    #fb, #tw, #in, #yt{
-        height: 36px;
-        width: 4%;
-    }
-    .footer{
-        margin-top: 0px;
-    }
-    .footer p{
-        padding-left: 5%;
-    }
-}
-@media only screen and (max-width: 1000px){
-    body{
-        overflow-x: hidden;
-    }
-    .container{
-        width: 100%;
-        height: 150px;
-    }   
-    .backColor{
-        height: 5750px;
-        margin-top: 0px;
-    }
-    .container .social-icons{
-        min-width: 20%;
-        margin-left: 40%;
-        float: left;
-    }    
-    .container p{
-        margin-left: 60%;
         padding-top: 10px;
-        font-size: 11pt;
-        width: 70%;
-    }
-    .container .topButton{
-        margin-top: -20px;
-        margin-left:20%;
-        min-width: 100%;
-    }   
-    .container .topButton button{
-        color: #006618;
-        margin-top: 15px;
-        font-size: 8pt;
-        width: 20%;
-        height: 30px;
-    }
-    .collapse{
-        margin-left: 0px;
-    }    
-    .logo{
-        width: 25%;
-        height: 55px;
-        margin-left: 0%;
-        background-color: #F7F8FA;
-    }
-    #home, #about .nav-link, #nav-saylaniServices .nav-link, #nav-future-project .nav-link, #nav-donation .nav-link, #nav-media  .nav-link, #nav-news .nav-link{
-        border-radius: 0px;
-        height: 30px;
-        text-align: left;
-        padding-left: 20px;
-    }
-    #home, #about, #nav-saylaniServices, #nav-future-project, #nav-donation, #nav-media, #nav-news{
-        min-width: 100%;
-        border-radius: 0px;
-        height: 30px;
-        background-color: #F7F8FA;
-        border: 1px solid white;
-    }
-    .dropdown-menu{
-        margin-top: 0px !important;
-        margin-left: 50% !important;
-        min-width: 50% !important;
-        color: #787a79 !important;
-        font-size: 9pt !important;
-    }
-    #carouselExampleControls{
-        margin-top: 0px;
-        min-width: 100%;
-        height: 300px;
-    }
-    .carousel-inner img{
-        min-width: 100%;
-        height: 300px;
-    }
-    body{
-        overflow-x: hidden;
-    }
-    .marq{
-        margin-top: 10px;
-        margin-left: 0%;
-        width: 100%;
-        height: 30px;
-        color: white;
-        background-color: #316DC3;
-    }    
-    .headIntro, .headDoing, .headGallery{
+        margin-left: 10px;
         height: 150px;
-    }   
-    .headIntro img, .headDoing img , .headGallery img{
-        height: 40px;
-        width: 8%;
-    }
-    .headIntro h2, .headDoing h2, .headGallery h2{
-        font-size: 22pt;
-        font-weight: bold;
-    } 
-    .paraIntro{
-        width: 90%;
-        margin-left: 5%;
-        height: 550px;
-        color: #878788;
-        text-align: justify;
-    }
-    .paraIntro p{
-        margin-bottom: 30px;
-    }
-    .numbers{
-        height: 950px;
-    }
-    .numbers h1{
-        font-size: 32pt;
-    }
-    .numbers img{
-        width: 9%;
-        height: 45px;
-    }
-    .numbers p{
-        font-weight: 600;
-    }
-    .monthlydastrakhan, .monthlyadoption, .monthlymedical, .monthlyeducation{
-        margin-left: 0%;
-        float: none;
-        width: 100%;
-        height: 200px;
-        text-align: center;
-        padding-top: 80px;
-        color: white;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 14pt;
-    }
-    .middle{
-        background-color: #F7F8FA;
-        width: 100%;
-        height: 2000px;
-    }
-    .onlineSdqh, .welfareService, .medicalService, .dastarkhwanService, .roService, .educationService{
-        float: none;
-        margin-left: 5%;
-        width: 90%;
-        height: 300px;
-    }
-    .onlineSdqh img, .welfareService img, .medicalService img, .dastarkhwanService img, .roService img, .educationService img{
-        width: 16%;
-        height: 70px;
-        margin-top: 90px;
-    }
-    .onlineSdqh p, .welfareService p, .medicalService p, .dastarkhwanService p, .roService p, .educationService p{
-        font-size: 15pt;
-        margin-top: 10px;   
-    }
-    .missionProject{
-        height: 900px;
-    }
-    .missionLeft,.missionRight{
-        float: none;
-    }
-    .missionLeft{
-        width: 100%;
-        height: 500px;
-    }
-    .missionRight{
-        width: 100%;
-        height: 400px;
-    }
-    .missionProject .missionLeft h2, .missionProject .missionRight h2{
-        padding-top: 50px;
-        padding-left: 2%;
-        font-size: 18pt;
-        color: #316DC3;
-        font-weight: bold;
-        font-family: Times New Roman, serif;
-    }
-    .missionProject .missionRight h2, .missionProject .missionRight .transform2{
-        padding-left: 5%;
-    }
-    .hepatitis, .housing, .literacy, .thar{
-        float: none;
-        width: 90%;
-        margin-left: 3%;
-        margin-top: 20px;
-    }
-    .marqEvent{
-        margin-left: 5%;
-        width: 40%;
-    }      
-    .picturesGallery{
-        height: 1200px;
-    }
-    .picturesGallery img{
-        display: block;
-        width: 70%;
-        margin-left: 10%;
-        margin-bottom: 20px;
-        height: 200px;
-    }
-    .useLink{
-        margin-top: 300px;
-        height: 500px;
-    }
-    .addressess{
-        width: 100%;
-        height: 220px;
-        float: none;
-    }
-    .useful{
-        width: 90%;
-        margin-left: 5%;
-        height: 50px;
-        float: none;    
-    }
-    .connectUs{
-        margin-top: 15px;
-        width: 90%;
-        margin-left: 5%;
-        height: 150px;
-        float: none;
-    }
-    #fb, #tw, #in, #yt{
-        height: 36px;
-        width: 4%;
     }
     .footer p{
-        padding-left: 5%;
+        padding-top: 15px;
+        padding-left: 10px;
+    }   
+    .goTop{
+        bottom: 10px;
+        right: 10px;
     }
 }
